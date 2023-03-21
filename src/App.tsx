@@ -10,7 +10,7 @@ import { NoteLayout } from "./NoteLayout"
 import { Note } from "./Note"
 import { EditNote } from "./EditNote"
 
-export type Note = {
+export type NoteType = {
   id: string
 } & NoteData
 
